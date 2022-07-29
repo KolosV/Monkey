@@ -11,22 +11,12 @@
 
 @media (max-width: 768px) {
 	.parent {
-		flex-basis: column;
 		display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+		flex-basis: max-content;
 	}
 	.child {
 		margin-bottom: 10px;
-		display: flex-basis;
-	}
-}
-@media (min-width: 768px) {
-	.parent {
-		justify-content: space-between;
-
-	}
-	.child {
-		width: 30%;
 	}
 }
